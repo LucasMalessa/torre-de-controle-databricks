@@ -1,0 +1,43 @@
+# O dataset é gerado por material/gerar_dataset.py (seed 42 reproduz byte a byte).
+dados/
+dados-vertice/
+
+# Segredos
+.env
+.env.*
+!.env.example
+.databricks/
+**/variable-overrides.json
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node / build
+node_modules/
+dist/
+build/
+.vite/
+
+# Arquivos grandes (slides gerados)
+*.pptx
+slides/*.html
+!slides/_modelo.html
+
+# Material do curso fora do repositório
+Imersão Databricks + Claude Code (out-26)/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional / editores
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
